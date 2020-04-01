@@ -1,0 +1,161 @@
+[
+  {
+	"city" : ["Agra","Delhi","Pune","Kolkata","Mumbai","Banglore"],
+    "theatre_name" : "Abhinay Theatre: Gandhi Nagar",
+    "theatre_id" : "T001",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Kalidas","Knives Out","Mamangam","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["200.00", "400.00", "600.00"],
+	"movie_screen" : [
+	{"capacity":400, "movie_timings" :"9:30 AM"},
+	{"capacity":300, "movie_timings" :"5:00 PM"},
+	{"capacity":200, "movie_timings" :"7:00 PM"},
+	{"capacity":500, "movie_timings" :"11:00 PM"}
+	]
+  },
+  {
+	 "city" : ["Agra","Delhi","Mumbai","Banglore"],
+    "theatre_name" : "Carnival: Rockline Mall",
+    "theatre_id" : "T002",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Hero","7","Jumanji II","Kalidas","Knives Out","Mamangam","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["220.00", "440.00", "660.00"],
+	"movie_screen" : [
+	{"capacity":450, "movie_timings" :"3:00 PM"},
+	{"capacity":350, "movie_timings" :"7:30 PM"},
+	{"capacity":440, "movie_timings" :"9:30 PM"},
+	{"capacity":480, "movie_timings" :"12:00 AM"}
+	]
+  
+  },
+  { 
+	 "city" : ["Agra","Delhi","Pune","Kolkata","Mumbai","Banglore"],
+    "theatre_name" : "Carnival: TGIP",
+    "theatre_id" : "T003",
+    "movies_array" : ["Mardaani 2","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Kalidas","Knives Out","Mamangam","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["100.00", "300.00", "400.00"],
+	"movie_screen" : [
+	{"capacity":440, "movie_timings" :"12:00 PM"},
+	{"capacity":340, "movie_timings" :"3:00 PM"},
+	{"capacity":480, "movie_timings" :"6:00 PM"}
+	]
+  
+  },
+  {
+
+	 "city" : ["Agra","Delhi","Pune","Kolkata","Mumbai","Banglore"],
+    "theatre_name" : "PVR: Logix",
+    "theatre_id" : "T004",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Kalidas","Knives Out","Mamangam","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["200.00", "350.00", "440.00"],
+	"movie_screen" : [
+	{"capacity":500, "movie_timings" :"12:00 PM"},
+	{"capacity":500, "movie_timings" :"3:00 PM"},
+	{"capacity":400, "movie_timings" :"6:00 PM"},
+	{"capacity":400, "movie_timings" :"9:00 PM"},
+	{"capacity":350, "movie_timings" :"11:00 PM"}
+	]
+  
+  },
+  {
+
+	"city" : ["Agra","Delhi","Pune","Kolkata","Mumbai","Banglore"],
+    "theatre_name" : "Cinepolis: V3S Mall, Laxmi Nagar",
+    "theatre_id" : "T005",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Kalidas","Knives Out","Mamangam","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["200.00"],
+	"movie_screen" : [
+	{"capacity":440, "movie_timings" :"9:00 AM"},
+	{"capacity":420, "movie_timings" :"12:00 PM"},
+	{"capacity":410, "movie_timings" :"3:00 PM"},
+	{"capacity":470, "movie_timings" :"6:00 PM"},
+	{"capacity":480, "movie_timings" :"9:00 PM"},
+	{"capacity":490, "movie_timings" :"11:00 PM"}
+	]
+  
+  },
+  { 
+	 "city" : ["Pune","Kolkata","Mumbai","Banglore"],
+    "theatre_name" : "Wave: The Wave Mall, Kaushambi",
+    "theatre_id" : "T006",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Kalidas","Knives Out","Mamangam","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["200.00", "500.00"],
+	"movie_screen" : [
+	{"capacity":350, "movie_timings" :"9:00 AM"},
+	{"capacity":340, "movie_timings" :"9:00 PM"},
+	{"capacity":600, "movie_timings" :"11:00 PM"}
+	]
+  
+  },
+  {
+	"city" : ["Agra","Delhi","Pune","Kolkata","Mumbai"],
+    "theatre_name" : "PVR: 3CS",
+    "theatre_id" : "T007",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Panipat","Pati Patni Aur Wo"],
+    "price": ["200.00", "400.00", "600.00","800.00"],
+	"movie_screen" : [
+	{"capacity":480, "movie_timings" :"9:00 AM"},
+	{"capacity":480, "movie_timings" :"12:00 PM"},
+	{"capacity":410, "movie_timings" :"3:00 PM"},
+	{"capacity":405, "movie_timings" :"6:00 PM"},
+	{"capacity":200, "movie_timings" :"9:00 PM"},
+	{"capacity":450, "movie_timings" :"11:00 PM"}
+	]
+  
+  },
+  {
+	 "city" : ["Agra","Delhi","Pune","Banglore"],
+    "theatre_name" : "SRS Aditya Mall",
+    "theatre_id" : "T008",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Knives Out","Mamangam","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": [ "800.00", "1200.00"],
+	"movie_screen" : [
+	{"capacity":500, "movie_timings" :"9:00 AM"},
+	{"capacity":480, "movie_timings" :"12:00 PM"},
+	{"capacity":450, "movie_timings" :"3:00 PM"}
+	]
+  
+  },
+  {
+	 "city" : ["Agra","Delhi","Pune","Kolkata","Banglore"],
+    "theatre_name" : "INOX: Shipra Mall",
+    "theatre_id" : "T009",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Odeya","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["212.00", "480.00", "685.00"],
+	"movie_screen" : [
+	{"capacity":200, "movie_timings" :"9:00 AM"},
+	{"capacity":450, "movie_timings" :"3:30 PM"},
+	{"capacity":480, "movie_timings" :"6:30 PM"},
+	{"capacity":470, "movie_timings" :"9:00 PM"},
+	{"capacity":300, "movie_timings" :"11:30 PM"}
+	]
+  
+  },
+  {
+	 "city" : ["Agra","Mumbai","Banglore"],
+    "theatre_name" : "PVR: Gaur City, Greater Noida",
+    "theatre_id" : "T010",
+    "movies_array" : ["Mardaani 2","Arjun Suravaram","Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Jumanji II","Kalidas","Knives Out"],
+    "price": ["350.00"],
+	"movie_screen" : [
+	{"capacity":200, "movie_timings" :"10:00 AM"},
+	{"capacity":500, "movie_timings" :"1:30 PM"},
+	{"capacity":400, "movie_timings" :"6:30 PM"},
+	{"capacity":360, "movie_timings" :"10:30 PM"}
+	]
+  
+  },
+  {
+
+	 "city" : ["Delhi","Pune","Banglore"],
+    "theatre_name" : "Delite Cinema",
+    "theatre_id" : "T011",
+    "movies_array" : ["Babru","Bala","Dabangg 3","Ford v Ferrari","Frozen II","Hero","7","Panipat","Pati Patni Aur Wo","Thambi","The Body","Venky Mama"],
+    "price": ["240.00", "450.00"],
+	"movie_screen" : [
+	{"capacity":200, "movie_timings" :"11:00 AM"},
+	{"capacity":20, "movie_timings" :"6:30 PM"},
+	{"capacity":470, "movie_timings" :"8:00 PM"},
+	{"capacity":430, "movie_timings" :"11:30 PM"}
+	]
+  
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/mardaani2.png",
+    "title": "Mardaani 2",
+    "certified": "UA",
+    "language": "Hindi",
+    "ratings": 85,
+    "interested": 145,
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "trailer": "https://www.youtube.com/embed/dKeRIOA28Jk",
+    "release_date": "13 Dec 2019",
+    "duration": "1 hr 46 mins",
+    "synopsis": "Rani Mukerji reprises her role as Shivani Shivaji Roy, a cop who is deputed in Kota, where female students are being raped and killed. As the killer keeps taunting Shivani, will she win the game of cat and mouse?",
+    "director": [
+      {
+        "director_name": "Gopi Puthran",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Rani Mukherjee",
+      "Shruti Bapna",
+      "Vikram Singh"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/Arjun.png",
+    "title": "Arjun Suravaram",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 81,
+    "interested": 155,
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "trailer": "https://www.youtube.com/embed/bUJ2D3sEDe0",
+    "release_date": "29 Nov 2019",
+    "duration": "2 hr 39 mins",
+    "synopsis": "When he is wrongly convicted for swindling banks with fake certificates, an investigative journalist sets out to prove his innocence and take down the dangerous counterfeiting racket behind the crime. Directed by T.N. Santhosh, Arjun Suravaram stars Nikhil Siddharth and Lavanya Tripathi in central roles.",
+    "director": [
+      {
+        "director_name": "TN Santosh",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Nikhil Siddharth",
+      "Lavanya Tripathi"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/babru.png",
+    "title": "Babru",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 75,
+    "interested": 85,
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "trailer": "https://www.youtube.com/embed/9qmxhf7P3lc",
+    "release_date": "06 Dec 2019",
+    "duration": "1 hr 46 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/bala.png",
+    "title": "Bala",
+    "certified": "UA",
+    "language": "Hindi",
+    "ratings": 80,
+    "interested": 175,
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/veJ6ejMjzgE",
+    "release_date": "08 Nov 2019",
+    "duration": "2 hr 06 mins",
+    "synopsis": "The film tells the story of Bala (Ayushmann Khurana) a man who is balding prematurely and how he copes with the situation. The film also narrates Bala`s relationship with two women played by Yami Gautam and Bhumi Pednekar respectively.",
+    "director": [
+      {
+        "director_name": "Amar Kaushik",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Ayushman Khurana",
+      "Bhumi",
+      "Yami Gautam"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3DIMAX"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/dabangg3.png",
+    "title": "Dabangg 3",
+    "certified": "UA",
+    "language": "Hindi",
+    "ratings": 90,
+    "interested": 285,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Romantic"
+    ],
+    "trailer": "https://www.youtube.com/embed/-AJ7cLi1Jfk",
+    "release_date": "20 Dec 2019",
+    "duration": "2 hr 42 mins",
+    "synopsis": "Dabangg 3 is a Hindi movie starring Salman Khan and Sonakshi Sinha in prominent roles. It is an action romantic thriller directed by Prabhu Deva with Sajid Ali and Wajid Ali as musician, forming part of the crew.",
+    "director": [
+      {
+        "director_name": "Parbhu Deva",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Salman Khan",
+      "Sonakshi Sinha"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3DIMAX"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/ford.png",
+    "title": "Ford v Ferrari",
+    "certified": "UA",
+    "language": "English",
+    "ratings": 90,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Biography",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/zyYgDtY2AMY",
+    "release_date": "15 Nov 2019",
+    "duration": "2 hr 36 mins",
+    "synopsis": "Academy Award-winners Matt Damon and Christian Bale star in Ford v Ferrari, based on the remarkable false story of the visionary American car designer Carroll Shelby (Damon) and the fearless British-born driver Ken Miles (Bale), who together battled corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966",
+    "director": [
+      {
+        "director_name": "James",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Christian Bale",
+      "Matt Damon"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3DIMAX"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/frozen.png",
+    "title": "Frozen II",
+    "certified": "UA",
+    "language": "English",
+    "ratings": 83,
+    "interested": 85,
+    "genre": [
+      "Animated",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
+    "release_date": "06 Dec 2019",
+    "duration": "1 hr 46 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3DIMAX"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/hero.png",
+    "title": "Hero",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 65,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/5FZnvzAA2iQ",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 26 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3DIMAX"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/7.png",
+    "title": "7",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 75,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/HsYNo1SJoJ0",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 26 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/jumanji.png",
+    "title": "Jumanji II",
+    "certified": "UA",
+    "language": "English",
+    "ratings": 78,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "trailer": "https://www.youtube.com/embed/F6QaLsw8EWY",
+    "release_date": "10 Dec 2019",
+    "duration": "1 hr 56 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/kalidas.png",
+    "title": "Kalidas",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 65,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/WSZLSlhgpCA",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 26 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/knives.png",
+    "title": "Knives Out",
+    "certified": "UA",
+    "language": "English",
+    "ratings": 68,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Horror"
+    ],
+    "trailer": "https://www.youtube.com/embed/xi-1NchUqMA",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 26 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/mamangam.png",
+    "title": "Mamangam",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 75,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/hCU_B_QKVR4",
+    "release_date": "11 Dec 2019",
+    "duration": "2 hr 26 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/odeya.png",
+    "title": "Odeya",
+    "certified": "UA",
+    "language": "Telgu",
+    "ratings": 75,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Drama",
+      "Comedy"
+    ],
+    "trailer": "https://www.youtube.com/embed/e2rDj_7h0DM",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 26 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/panipat.png",
+    "title": "Panipat",
+    "certified": "UA",
+    "language": "Hindi",
+    "ratings": 95,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/zpXnmy-6w1g",
+    "release_date": "07 Dec 2019",
+    "duration": "2 hr 24 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/pati.png",
+    "title": "Pati Patni Aur Wo",
+    "certified": "UA",
+    "language": "Hindi",
+    "ratings": 83,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/L7a1JSeqaXk",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 36 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "4D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/thambi.png",
+    "title": "Thambi",
+    "certified": "UA",
+    "language": "Kannada",
+    "ratings": 73,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/y2vwIiLyt1Y",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 36 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "4D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/thebody.png",
+    "title": "The Body",
+    "certified": "UA",
+    "language": "Hindi",
+    "ratings": 63,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/4f9jIdg4rTQ",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 36 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  },
+  {
+    "format": [
+      "2D",
+      "3D"
+    ],
+    "visible": false,
+    "poster_url": "assets/img/poster/venky-mama.png",
+    "title": "Venky Mama",
+    "certified": "UA",
+    "language": "Tamil",
+    "ratings": 83,
+    "interested": 85,
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/embed/b8gI3ijht8E",
+    "release_date": "09 Dec 2019",
+    "duration": "2 hr 36 mins",
+    "synopsis": "Arjun, an immigrant Indian student looking for his girlfriend and Sana, a middle-aged Indian woman going through marital conflict agree to move a car from San Diego to Vancouver. A hitchhiker named Gustavo joins them. But the trip doesn`t go as planned as the cops and few powerful people have been looking for this car.",
+    "director": [
+      {
+        "director_name": "Sujay Ramaiah",
+        "img": "image_address"
+      }
+    ],
+    "cast": [
+      "Mahi Hiremat",
+      "Sunny Moza"
+    ],
+    "cast_img": [
+      "image_address"
+    ]
+  }
+]
