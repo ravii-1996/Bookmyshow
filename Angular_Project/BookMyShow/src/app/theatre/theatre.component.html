@@ -1,0 +1,88 @@
+<!-- show spinner if movie is null -->
+<div *ngIf="!movie">
+  <app-loading></app-loading>
+</div>
+
+<!-- else part -->
+
+<div *ngIf="movie">
+  <div class="bg-set">
+    <div class="movie_content" *ngIf="movie">
+      <a id="movie-title">
+        {{ movie.title }}
+      </a>
+      <div>
+        {{ movie.certified }}
+        <i class="fas fa-heart" aria-hidden="true" style="color: rgb(146, 38, 38);font-size: 20px;"></i><b
+          id="rating">{{ movie.ratings }}%</b>
+
+        <a id="btn" *ngFor="let tags of movie.genre" class="btn btn-outline-primary">{{ tags }}</a>
+        <i style="margin-right: 10px;font-size: 13px;" class="far fa-calendar-alt">
+          {{ movie.release_date }}
+        </i>
+        <i style=" margin-top: 10px;font-size: 13px;" class="far fa-clock">
+          {{ movie.duration }}
+        </i>
+      </div>
+    </div>
+  </div>
+
+  <div class="date-picker">
+    <app-date-picker></app-date-picker>
+  </div>
+
+  <div style="background-color:rgb(255, 255, 255); padding: 10px; overflow: hidden;">
+    <div class="container-fluid theatre-details" *ngFor="let movieTheatre of theatres">
+      <div style="width:300px;">
+        <i class="fas fa-heart" aria-hidden="true"
+          style="color: rgb(197, 107, 107) ;font-size: 14px; margin-right: 10px;"></i>
+        <b style="font-size:14px">{{ movieTheatre.theatre_name }}</b>
+      </div>
+      <div style=" transform: translate(25%, -72%);">
+        <button type="button" *ngFor="let movie_screen of movieTheatre.movie_screen" class="btn btn-outline-secondary"
+          id="price-btn" data-toggle="modal" data-target="#OrderSummaryPopup"
+          (click)="setSelectedTheatreDetails(movieTheatre, movie_screen)" data="Rs">
+          <div>
+            {{ movie_screen.movie_timings }}<br>
+            <small style="color: green;">Availiable {{movie_screen.capacity}}</small>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal To select the number of tickets-->
+<div class="modal fade" id="OrderSummaryPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div style="width: 106%;" class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h6 class="modal-title" style="text-align: center;" id="exampleModalLongTitle">
+            How many Seats?
+          </h6>
+          <img src="assets/img/scotter.png" alt="" />
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div style="margin:auto;" class="btn-group " role="group" aria-label="First group">
+              <button *ngFor="let btnValue of '123456789'.split('')" type="button"
+                (click)="setSelectedTicketNo(btnValue)" id="grp-btn" class="btn btn-secondary">
+                {{ btnValue }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="priceEnableFlag" class="modal-body" style="text-align:center">
+        <button id="price-btn" type="button" *ngFor="let priceOfEachTheatre of selectedMovieTheatrePriceArray"
+          class="btn btn-outline-secondary" data-dismiss="modal"
+          (click)="routeToOrderSummaryComponent(priceOfEachTheatre)">
+          <div style="text-align:center">
+            Rs {{ priceOfEachTheatre }}<br>
+            <small style="color: green;">Availiable</small>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

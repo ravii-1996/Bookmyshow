@@ -1,0 +1,65 @@
+.bg-set {
+  background-color: #1d1e2c;
+  width: 100%;
+}
+.movie_content {
+  color: whitesmoke;
+  padding: 25px;
+  margin:auto;
+}
+#btn {
+  line-height: .5;
+  border-color: whitesmoke;
+  color: white;
+  border-radius: 0.8rem;
+  font-size: 0.7rem;
+  margin-right: 10px;
+}
+#movie-title:hover{
+text-decoration: underline !important;
+}
+#movie-title{
+  font-family:sans-serif; font-weight: 700; font-size: 1.6rem;
+}
+#rating {
+  margin-left: 7px;
+  font-size: 22px;
+  color: whitesmoke;
+  font-weight: 300;
+  margin-right: 10px;
+}
+.date-picker{
+  background-color: whitesmoke;
+
+}
+.theatre-details{
+  background-color: whitesmoke;
+  margin-top:10px;padding-top: 10px;
+  padding-top: 30px;
+}
+  .mat-form-field-infix{
+  width: 0px !important;
+  min-width: 0px !important;
+} 
+#grp-btn{
+  background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    border-radius:2px;
+}
+#grp-btn:hover{
+  background-color: green;
+  color:white;
+}
+#price-btn{
+  color:black;
+  margin-left:10px;
+  font-size:12px;
+  
+}
+.small{
+  font-size: 12px;
+  color: rgb(31, 30, 30);
+}

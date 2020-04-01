@@ -1,0 +1,10 @@
+<mat-form-field>
+  <mat-datepicker-toggle matSuffix [for]="picker3">
+    <!-- change the icon -->
+    <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+  </mat-datepicker-toggle>
+  <!-- dateInput event help to get the selected date -->
+  <input style="line-height: 2;font-size: small;padding-left: 10px;" [min]="minDate" class="btn btn btn-secondary"
+    matInput [matDatepicker]="picker3" (dateInput)="inputEvent($event)" [value]="date.value">
+  <mat-datepicker #picker3></mat-datepicker>
+</mat-form-field>

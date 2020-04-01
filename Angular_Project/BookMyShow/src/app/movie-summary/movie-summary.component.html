@@ -1,0 +1,122 @@
+<!-- show spinner if movie is null intnially -->
+<div *ngIf="!movies">
+  <app-loading></app-loading>
+</div>
+
+<!-- else part -->
+<div *ngIf="movies" style="overflow: hidden;">
+  <div class="bg-set">
+    <div class="movie_content">
+      <h4 style="font-family:sans-serif; font-weight: 800;">
+        {{ movies.title }}
+      </h4>
+      <h6 style="font-family: sans-serif; font-weight: 600;">
+        {{ movies.certified }} | {{ movies.language }}
+      </h6>
+      <button id="btn" *ngFor="let tags of movies.genre" class="btn btn-outline-primary">{{ tags }}</button>
+
+      <br />
+      <i style="margin-right: 10px; margin-top: 10px;" class="far fa-calendar-alt">
+        {{ movies.release_date }}
+      </i>
+      <i style=" margin-top: 10px;" class="far fa-clock">
+        {{ movies.duration }}
+      </i>
+    </div>
+    <div class="poster_img">
+      <img src="{{ movies.poster_url }}" style="width: 17%;" />
+      <i data-toggle="modal" data-target="#myModal" class="far fa-play-circle playicon"></i>
+    </div>
+  </div>
+  <div class="fluid-container ratingdiv">
+    <i class="fas fa-heart" aria-hidden="true" style="color: rgb(146, 38, 38);font-size: 26px;"></i><b
+      id="rating">{{ movies.ratings }}%</b> <br />
+    <div style="transform: translate(2%, -10%);">
+      {{ movies.interested }}k votes
+    </div>
+    <button id="ticket-btn" type="button" data-toggle="modal" data-target="#exampleModalCenter"
+      class="btn btn-primary btn-lg">
+      Book Tickets
+    </button>
+  </div>
+
+  <div style="margin-top: 5%; margin-left: 18%;">
+    <mat-tab-group style="width: 60%;" animationDuration="0ms">
+      <mat-tab label="Summary">
+        <div>
+          <br />
+          <h5>Synopsis</h5>
+          <br /><br />
+          {{ movies.synopsis }}
+          <br />
+          <br /><br />
+        </div>
+      </mat-tab>
+      <mat-tab label="Cast">
+        <div>
+          <br />
+          <h5>Cast</h5>
+          <br /><br />
+        </div>
+      </mat-tab>
+      <mat-tab label="Crew">
+        <div>
+          <br />
+          <h5>Crew</h5>
+          <br /><br />
+          <div>
+            <img src="assets/img/dummy.png" alt="" style="border-radius: 50%; width: 100px;" />
+            Hema Malni
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
+
+<!-- Modal for select the format of movie-->
+<div *ngIf="movies" style="border-radius: 5px;" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div style="width: 302px;" class="modal-content">
+      <div>
+        <img style="border-radius: 5px;" src="assets/img/format-banner.jpg" alt="" />
+      </div>
+      <div class="modal-header">
+        <h6 class="modal-title" id="exampleModalLongTitle">
+          Select the Format
+        </h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{ movies.language.toUpperCase() }}</p>
+        <button id="formatbtn" *ngFor="let format of movies.format" type="button" class="btn btn-light"
+          data-dismiss="modal" (click)="routeToTheatreComponent(format)">
+          {{ format }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal for play the  trailer of movie-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-full" role="document">
+    <div *ngIf="movies" style="background-color: black;" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="abc()" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body p-4" id="result">
+        <iframe width="100%" height="500px" [src]="sanitizer.bypassSecurityTrustResourceUrl(movies.trailer)" frameborder="0"
+         allowfullscreen></iframe>
+        {{movies.trailer}}
+      </div>
+    </div>
+  </div>
+</div>

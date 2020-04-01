@@ -1,0 +1,41 @@
+.example-container {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  background-color: whitesmoke;
+}
+.sidebar {
+  border: 0px;
+  width: 25%;
+  padding: 10px 15px 15px 50px;
+  background-color: whitesmoke;
+}
+.pannel-title {
+  margin: 10px;
+}
+.card {
+  width: 100%;
+  height: 425px;
+}
+.rating-div {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.footer-card {
+  border-radius: 3px;
+  height: 40px;
+}
+#catalouge {
+  margin: 1%;
+  float: left;
+}
+.movie-lable {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  height: 50px;
+  padding: 20px;
+}
+/* .mat-drawer-content {
+  overflow: hidden !important;
+} */

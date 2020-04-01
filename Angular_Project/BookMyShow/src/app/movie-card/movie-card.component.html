@@ -1,0 +1,88 @@
+<!-- check if movies list is null then show spinner otherwise show whole content-->
+<div *ngIf="!movieList">
+  <app-loading></app-loading>
+</div>
+
+<!-- else part -->
+
+<div *ngIf="movieList">
+  <div class="container-fluid movie-lable">
+    <h4 style="margin-left: 55px;">Movies</h4>
+  </div>
+</div>
+<!-- side drawer -->
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened class="sidebar">
+    <div>
+      <mat-accordion>
+        <mat-expansion-panel class="pannel-title">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Select Language
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <!-- use ngfor -->
+          <div *ngFor="let lang of select_language">
+            <mat-checkbox #checkbox_lang (click)="filterMovieListByLang(checkbox_lang, lang)">{{ lang.language }}
+            </mat-checkbox>
+          </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel class="pannel-title" (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Genre
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <!-- use ngfor -->
+          <div *ngFor="let genre of genres">
+            <mat-checkbox #checkbox_genre (click)="filterMovieListByGenre(checkbox_genre, genre)">{{ genre.genre }}
+            </mat-checkbox><br />
+          </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false"
+          class="pannel-title">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Format
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <!-- use ngfor -->
+          <div *ngFor="let format of formats">
+            <mat-checkbox #checkbox_format (click)="filterMovieListByFormat(checkbox_format, format)">
+              {{ format.format }}</mat-checkbox>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+      <div *ngFor="let movie of movieList">
+        <div id="catalouge" *ngIf="movie.visible === true || totalNoOfMoviesSelected === 0">
+          <mat-card class="card">
+            <img (click)="routeOnSelect(movie)" mat-card-image src="{{ movie.poster_url }}" />
+            <mat-card-footer>
+              <div>
+                <span class="rating-div">
+                  <i class="fas fa-heart" aria-hidden="true" style="color:red"></i>
+                  {{ movie.ratings }}%
+                </span>
+                <span>
+                  <b>{{ movie.title }}<br /></b>
+                  <p style="font-size: small; margin-left: 72px;">
+                    {{ movie.certified }} | {{ movie.language }}
+                  </p>
+                </span>
+              </div>
+            </mat-card-footer>
+          </mat-card>
+        </div>
+      </div>
+      <div *ngIf="movieList">
+        <div style="text-align: center;" *ngIf="!checkNoMovieFound()">
+          <img style="border-radius: 40%;" src="assets/img/movie-not-found.png" alt="">
+        </div>
+      </div>
+  </mat-drawer-content>
+</mat-drawer-container>

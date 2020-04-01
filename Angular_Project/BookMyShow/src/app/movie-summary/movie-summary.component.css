@@ -1,0 +1,64 @@
+.poster_img {
+  transform: translate(1%, -18%);
+}
+.bg-set {
+  background-color: #1d1e2c;
+  width: 100%;
+  height: 230px;
+}
+.playicon {
+  transform: translate(-215%, 29%);
+  color: rgb(202, 202, 202);
+  font-size: 68px;
+}
+.playicon:hover {
+  font-size: 70px;
+  color: white;
+}
+.movie_content {
+  color: whitesmoke;
+  transform: translate(22%, 70%);
+}
+#btn {
+  line-height: 1;
+  border-color: whitesmoke;
+  color: white;
+  border-radius: 0.9rem;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+.ratingdiv {
+  background-color: whitesmoke;
+  padding-left: 22%;
+  margin-top: auto;
+  height: 80px;
+}
+#rating {
+  font-size: 36px;
+  color: black;
+  font-weight: 300;
+  margin-left: 10px;
+}
+#ticket-btn {
+  transform: translate(200%, -135%);
+  width: 30%;
+}
+.modal-header {
+  border: 0px;
+}
+.modal-content {
+  background-color: whitesmoke;
+}
+#formatbtn {
+  margin-right: 10px;
+  width: 50px;
+}
+.modal-full {
+  min-width: 100%;
+  margin: 0;
+}
+
+.modal-full .modal-content {
+  min-height: 100vh;
+}

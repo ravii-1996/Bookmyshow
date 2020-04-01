@@ -1,0 +1,39 @@
+.footer1 {
+  padding: 10px 20px 10px 20px;
+  background-color: lightgray;
+  font-size: smaller;
+}
+#footer1-para {
+  text-decoration: lightslategrey;
+  font-family: sans-serif;
+}
+.footer2 {
+  align-content: center;
+  width: 33.333%;
+  height: 20%;
+  float: left;
+  padding: 25px;
+  background-color: #404040;
+  color: rgb(112, 112, 112);
+}
+.footer2:hover {
+  color: white;
+}
+.footer3 {
+  align-content: center;
+  width: 50%;
+  height: 20%;
+  float: left;
+  padding: 25px;
+  background-color: #111111;
+}
+#subfooter3link {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+#subfooter3link:hover {
+  color: white;
+}
+.hrline {
+  border-top: 5px solid white;
+}

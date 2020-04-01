@@ -1,0 +1,60 @@
+<!-- show spinner if orderlist is null -->
+
+<div *ngIf="!orderDetails">
+  <app-loading></app-loading>
+</div>
+
+<!-- else part -->
+
+<div *ngIf="orderDetails" class="container-fluid" style="padding: 0px;">
+  <div id="sidebar">
+    <img style="margin:12px" src="assets/img/hurryup.jpg" alt="">
+  </div>
+  <div id="page-wrap">
+    <div style="background-color:white; ">
+      <div class="order-summary">
+        <p id="title-header">ORDER SUMMARY</p>
+
+        <div style="float:right;text-align: center;">
+          <p id="bold" style="margin:0px;">{{orderDetails.selectedNoOfTickets}}</p>
+          <small>Tickets</small>
+        </div>
+
+        <div class="seprator">
+          <p id="bold">{{orderDetails.title}} ({{orderDetails.certified}})</p>
+          <small>
+            <p>{{orderDetails.language}}</p>
+            <p>{{orderDetails.theatre_name}}</p>
+          </small>
+
+        </div>
+
+        <div class="seprator" style="border-bottom:dotted 1px black">
+          Premimun Seat Number
+          <b *ngFor="let i of repeatLoop()" id="bold"> S{{i}}, </b>
+          <p id="bold">{{datePicked}}</p>
+          <p id="bold">{{orderDetails.selectedMovieTimings}}</p>
+        </div>
+        <div class="seprator">
+          <small style="float:left">
+            <p>Sub Total</p>
+            <p> Internet Handling Fees </p>
+          </small>
+          <div style="float:right">
+            <p id="bold"> Rs. {{orderDetails.selectedPriceOfTheatre * orderDetails.selectedNoOfTickets}}</p>
+            <p id="bold">Rs. {{11.00* orderDetails.selectedNoOfTickets}}</p>
+          </div>
+          <div>
+            <button (click)="routeToThankyou()" class="btn btn-secondary" style="width: -webkit-fill-available;">
+              <b style="float: left;" id=btn-font>Total Rs.
+                {{orderDetails.selectedPriceOfTheatre * orderDetails.selectedNoOfTickets + 11* orderDetails.selectedNoOfTickets }}</b><b
+                id=btn-font style="float: right;">Proceed</b>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
