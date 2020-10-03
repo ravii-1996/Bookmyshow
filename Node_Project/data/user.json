@@ -1,0 +1,57 @@
+[
+  {
+    "email" : "admin",
+    "password" : "Qwerty",
+    "role" : "ADMIN"
+  },
+  {
+    "email" : "Ravi@bms.com",
+    "password" : "Qwerty",
+    "role" : "ADMIN"
+  },
+  {
+    "email" : "Shally@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Meena@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Reena@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Monika@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Dj@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Sanjay@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Rohit@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Mohit@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  },
+  {
+    "email" : "Rakesh@bms.com",
+    "password" : "Qwerty",
+    "role" : "USER"
+  }
+]
