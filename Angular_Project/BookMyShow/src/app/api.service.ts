@@ -5,14 +5,14 @@ import { Observable } from 'rxjs/Observable';
 import { ICities } from './interface/ICities';
 import 'rxjs/add/operator/catch';
 import { ITheatres } from './interface/ITheatres';
-
+import { environment } from '../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
 export class ApiService {
 
-  //private baseurl: string = "http://localhost:8000"; // server api url
-  private baseurl: string = "https://bookmyshow-backend.herokuapp.com"; // server api url
+  private baseurl: string = environment.apiBase; // server api url
+  //private baseurl: string = "https://bookmyshow-backend.herokuapp.com"; // server api url
 
   constructor(private http: HttpClient) { }
 
@@ -23,7 +23,7 @@ export class ApiService {
   getCities() {
     return this.http.get<ICities[]>(this.baseurl + "/api/v1/getcities").catch(this.customErrorHandler);
   }
-  updateTheatreCapacity(selectedMovieTheatre){    
+  updateTheatreCapacity(selectedMovieTheatre){
     return this.http.put<ITheatres>(this.baseurl + "/api/v1/update/theatres/" ,selectedMovieTheatre).catch(this.customErrorHandler);
   }
   getGivenMovieDetails(movie_title) {
