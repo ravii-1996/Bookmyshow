@@ -12,15 +12,15 @@ import { FormControl } from '@angular/forms';
 })
 export class TheatreComponent implements OnInit {
 
-  private movie: IMovies;
-  private theatres: ITheatres[];
-  private selectedMovieTheatrePriceArray: number[];
-  private selectedMovieTheatreCapacity: number;
-  private selectedMovieTheatre: ITheatres;
-  private selectedTicketNo = 0;
-  private selectedMovieTimings: string;
-  private selectedMovieFormat: string;
-  private priceEnableFlag: boolean = false
+   movie: IMovies;
+   theatres: ITheatres[];
+   selectedMovieTheatrePriceArray: number[];
+   selectedMovieTheatreCapacity: number;
+   selectedMovieTheatre: ITheatres;
+   selectedTicketNo = 0;
+   selectedMovieTimings: string;
+   selectedMovieFormat: string;
+   priceEnableFlag: boolean = false
 
 
   constructor(private lookupService: LookupService, private router: Router, private route: ActivatedRoute) { }

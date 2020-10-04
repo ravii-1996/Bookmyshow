@@ -45,7 +45,7 @@ export class DatePickerComponent {
       lookupService.datePicked = new Date().toDateString();
   }
   //min date to disabl the past date
-  private minDate = new Date();
+  minDate = new Date();
   date = new FormControl(moment());
   inputEvent(event) {
     //convert into event into 1 Jan 2020

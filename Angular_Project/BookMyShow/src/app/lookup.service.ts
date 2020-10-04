@@ -13,7 +13,7 @@ import { IOrderDetails } from './interface/IOrderDetails';
 })
 export class LookupService {
 
-  //store selected theatre 
+  //store selected theatre
   public selectedTheatre: ITheatres;
 
   // city name pass through BehaviorSubject
@@ -21,7 +21,32 @@ export class LookupService {
   currentcityNamePass = this.cityNamePass.asObservable();
 
   // orderDetails pass through BehaviorSubject
-  private orderDetails: IOrderDetails;
+  private orderDetails: IOrderDetails={
+    city : [],
+  theatre_name : "",
+  theatre_id : "",
+  movies_array : [],
+  movie_screen : [],
+  price: [],
+  visible: false,
+	poster_url: "",
+	title: "",
+	certified: "",
+	language: "",
+	ratings: 0,
+	interested: 0,
+	genre: "",
+	trailer: "",
+	release_date: "",
+	duration: "",
+	synopsis: "",
+	director: "",
+	cast: "",
+  cast_img: "",
+  selectedNoOfTickets:0,
+  selectedPriceOfTheatre: 0,
+  selectedMovieTimings:"",
+  }
   private orderSummayDetailsObject = new BehaviorSubject(this.orderDetails);
   orderSummayDetails = this.orderSummayDetailsObject.asObservable();
 
@@ -43,7 +68,7 @@ export class LookupService {
   updateTheatreCapacity(selectedMovieTheatre): Observable<ITheatres> {
     return this.api.updateTheatreCapacity(selectedMovieTheatre);
   }
-  // http get call to fetch all cities 
+  // http get call to fetch all cities
   getCities(): Observable<ICities[]> {
     return this.api.getCities();
   }
@@ -62,7 +87,7 @@ export class LookupService {
     return this.api.fetchGivenMovieDetails(movie);
   }
 
-  // get all theatre 
+  // get all theatre
   getAllTheatreForSelectedMovie(movie): Observable<ITheatres[]> {
     return this.api.getAllTheatreForSelectedMovie(movie);
   }

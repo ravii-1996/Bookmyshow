@@ -10,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieCardComponent implements OnInit {
 
-  private cityName: string;
-
+  cityName: string;
+  panelOpenState: boolean;
   constructor(private lookupService: LookupService, private router: Router) { }
 
   routeOnSelect(movie) {
@@ -19,24 +19,24 @@ export class MovieCardComponent implements OnInit {
     this.router.navigate([this.cityName, 'movies', title]);
   }
 
-  private genres = [
-    { checked: false , genre: 'Action'  }, 
-    { checked: false , genre: 'Adventure'  }, 
-    { checked: false , genre: 'Animation'  }, 
-    { checked: false , genre: 'Biography'  }, 
-    { checked: false , genre: 'Comedy'  }, 
-    { checked: false , genre: 'Crime'  }, 
-    { checked: false , genre: 'Drama'  }, 
-    { checked: false , genre: 'Fantasy'  }, 
-    { checked: false , genre: 'Historical'  }, 
-    { checked: false , genre: 'Horror'  }, 
-    { checked: false , genre: 'Mystery'  }, 
-    { checked: false , genre: 'Period'  }, 
-    { checked: false , genre: 'Romantic'  }, 
+   genres = [
+    { checked: false , genre: 'Action'  },
+    { checked: false , genre: 'Adventure'  },
+    { checked: false , genre: 'Animation'  },
+    { checked: false , genre: 'Biography'  },
+    { checked: false , genre: 'Comedy'  },
+    { checked: false , genre: 'Crime'  },
+    { checked: false , genre: 'Drama'  },
+    { checked: false , genre: 'Fantasy'  },
+    { checked: false , genre: 'Historical'  },
+    { checked: false , genre: 'Horror'  },
+    { checked: false , genre: 'Mystery'  },
+    { checked: false , genre: 'Period'  },
+    { checked: false , genre: 'Romantic'  },
     { checked: false , genre: 'Thriller'}
     ];
 
-  private select_language = [
+   select_language = [
     { language: 'English', checked: false },
     { language: 'Hindi', checked: false },
     { language: 'Telgu', checked: false },
@@ -46,7 +46,7 @@ export class MovieCardComponent implements OnInit {
     { language: 'Bengali', checked: false }
   ];
 
-  private formats  = [
+   formats  = [
     { format :  '2D', checked : false },
     { format :  '3D', checked : false },
     { format :  '4D', checked : false },
@@ -56,8 +56,8 @@ export class MovieCardComponent implements OnInit {
     ];
 
   public movieList: IMovies[];
-  private moviesNotFound = false;
-  private totalNoOfMoviesSelected = 0;
+  moviesNotFound = false;
+  totalNoOfMoviesSelected = 0;
 
   checkNoMovieFound(){
     var movieFound: boolean = false;
@@ -139,7 +139,7 @@ export class MovieCardComponent implements OnInit {
   ngOnInit() {
     //api call for movies
     this.lookupService.getMovies().subscribe(data => this.movieList = data);
-    // use behaviour subject get selected the city name 
+    // use behaviour subject get selected the city name
     this.lookupService.currentcityNamePass.subscribe(data => this.cityName = data);
   }
 

@@ -11,8 +11,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class MovieSummaryComponent implements OnInit {
 
-  private movies: IMovies;
-  constructor(private lookupService: LookupService, private route: ActivatedRoute, private router: Router, private sanitizer: DomSanitizer) { }
+  movies: IMovies;
+  constructor(private lookupService: LookupService, private route: ActivatedRoute, private router: Router, public sanitizer: DomSanitizer) { }
 
 
   getMovieTitleFromUrl(): string {

@@ -10,10 +10,10 @@ import { Router } from "@angular/router";
 })
 
 export class NavBarComponent implements OnInit {
-  private errormsg: string;
-  private selected: string = "Delhi";
+  errormsg: string;
+  selected: string = "Delhi";
   constructor(private lookupService: LookupService, private router: Router) { }
-  private cities = [];
+  cities = [];
 
   routeWithCityName(cityName) {
     //use behaviour subject to pass the city name

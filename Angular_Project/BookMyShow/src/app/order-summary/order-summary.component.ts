@@ -10,11 +10,11 @@ import { promise } from 'protractor';
   styleUrls: ['./order-summary.component.css']
 })
 export class OrderSummaryComponent implements OnInit {
-  
-  private orderDetails: IOrderDetails;
-  private selectedMovieTheatre = this.lookupService.selectedTheatre;
-  private errormsg: any;
-  private number: number[];
+
+  orderDetails: IOrderDetails;
+  selectedMovieTheatre = this.lookupService.selectedTheatre;
+  errormsg: any;
+  number: number[];
 
   constructor(private lookupService: LookupService, private router: Router, private route: ActivatedRoute) {
 

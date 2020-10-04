@@ -2,7 +2,7 @@ export interface movie_screen{
 	movie_timings: string;
 	capacity : number;
 }
-export interface IOrderDetails 
+export interface IOrderDetails
 {
   city : string[];
   theatre_name : string;
@@ -26,6 +26,6 @@ export interface IOrderDetails
 	cast: string;
   cast_img: string;
   selectedNoOfTickets:number;
-  selectedPriceOfTheatre:string;
+  selectedPriceOfTheatre:number;
   selectedMovieTimings:string;
 }

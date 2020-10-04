@@ -12,7 +12,7 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  private langMovies = [
+  langMovies = [
     { "key": "Hindi Movies", "value": "/movies/hindi-movies" },
     { "key": "English Movies", "value": "/movies/hindi-movies" },
     { "key": "Telgu Movies", "value": "/movies/hindi-movies" },

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagenotfound.component.css']
 })
 export class PagenotfoundComponent implements OnInit {
-  private currentPath: string;
+  currentPath: string;
 
   constructor( private router:  Router) {
     //to get the current path
